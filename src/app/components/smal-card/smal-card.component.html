@@ -11,9 +11,10 @@
       <div class="smal-card__title">
         <h1>
           <a
-            href="{{linkCard}}"
+            [routerLink]="['content', id]"
             >{{cardTitle}}
         </a>
+        <p>{{cardDescription}}</p>
         </h1>
       </div>
     </div>

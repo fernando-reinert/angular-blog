@@ -11,7 +11,9 @@ export class SmalCardComponent implements OnInit {
   @Input()
   cardTitle: string = ""
   @Input()
-  linkCard: string = ""
+  cardDescription: string = ""
+  @Input()
+  id: string = "0"
 
   constructor() { }
 

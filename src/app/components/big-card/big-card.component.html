@@ -11,7 +11,7 @@
   <div class="big-card__title">
     <h1>
       <a
-        href="https://www.mx1.com.br/blog/mxf-divulga-informacoes-oficiais-da-nova-270f#"
+        [routerLink]="['content', id]"
         >{{cardTitle}}</a
       >
     </h1>
@@ -19,7 +19,9 @@
 
   <div class="big-card__description">
     <p>
+      <a [routerLink]="['content', id]">
       {{cardDescription}}
+    </a>
     </p>
   </div>
 </div>
